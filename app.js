@@ -6,9 +6,16 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var stylus = require('stylus');
 
+// import the required routes modules
 var index = require('./routes/index');
 var users = require('./routes/users');
 var photography = require('./routes/photography');
+var coding = require('./routes/coding');
+var modelling = require('./routes/modelling');
+var design = require('./routes/design');
+var engineering = require('./routes/engineering');
+var writing = require('./routes/writing');
+
 
 var app = express();
 
@@ -25,9 +32,18 @@ app.use(cookieParser());
 app.use(stylus.middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Hook up the route controllers to the app
 app.use('/', index);
 app.use('/users', users);
 app.use('/photography', photography);
+app.use('/coding', coding);
+app.use('/modelling', modelling);
+app.use('/engineering', engineering);
+app.use('/writing', writing);
+app.use('/design', design);
+
+
+
 
 
 // catch 404 and forward to error handler
