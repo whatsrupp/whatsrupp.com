@@ -14,4 +14,4 @@ I have decided to try and compartmentalise my online life into 6 main sections:
 Each section will then have a little bit about what I get up to and I'll keep it updated from time to time -
 That's about it really!
 
-![Icons](/app/assets/images/Icons.png)
+![Icons](/public/images/Icons.png)
