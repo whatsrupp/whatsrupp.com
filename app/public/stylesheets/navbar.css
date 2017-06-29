@@ -1,0 +1,46 @@
+#whatsrupp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+#whats{
+  width: 150px;
+  text-align: right;
+}
+#whats:hover span {
+  display:none;
+
+}
+#whats:hover:before {content:"NICK";
+color: #222036 ;
+}
+
+/*Tablets*/
+@media screen and (max-width: 768px){
+  nav{
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items:flex-end;
+    }
+  h1,h2{
+    margin-top:0 ;
+    margin-bottom: 0 ;
+  }
+
+  #whatsrupp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+}
+
+/*Mobiles*/
+@media screen and (max-width: 480px){
+
+}
