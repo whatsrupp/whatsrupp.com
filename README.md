@@ -15,3 +15,9 @@ Each section will then have a little bit about what I get up to and I'll keep it
 That's about it really!
 
 ![Icons](/public/images/Icons.png)
+
+***
+
+**_Thanks for reading and happy coding!_**
+
+_Nick Rupp_
