@@ -32,3 +32,19 @@ nav{
   margin-left: 5%;
   margin-right: 20%;
 }
+
+/*Tablets*/
+@media screen and (max-width: 768px){
+  nav{
+    flex-direction: column;
+    }
+  h1,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/*Mobiles*/
+@media screen and (max-width: 480px){
+
+}
