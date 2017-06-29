@@ -14,6 +14,7 @@ h2{
 
 #whats{
   width: 150px;
+  text-align: right;
 }
 #whats:hover span {
   display:none;
