@@ -1,0 +1,72 @@
+/*Colours:*/
+/*Orange: rgb(237,158,40)
+Green:  rgb(65,240,123)
+purple: rgb(99,13,186)
+Dark Gray: rgb(161,167,165)
+White Gray: rgb(240,239,237)
+Dull Gray: rgb(211,213,210)
+Black Gray: rgb(47,52,55)
+Black: rgb(43,43,43)*/
+
+/*Light Green Theme*/
+
+
+/*Dark Green Theme
+seagreen: #437d66 Background
+mediumaquamarine: #70d1aa Subdued Text
+darkslategrey blue: #335072  Blue emphasis
+white: #ffffff   white text */
+
+/*Purple Theme*/
+
+/*white: #ffffff   white text
+background: #403d66
+Subdued Text: #222036
+Even more subdued Text: #2c3566*/
+
+
+html{
+  background-color: #403d66;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+h2{
+  font-family: 'Bitter', sans-serif;
+  color: #222036;
+}
+h3{
+  font-family: 'Montserrat', serif;
+  color:rgb(47,52,55);
+}
+
+p{
+  font-family: 'Bitter', serif;
+  color: rgb(240,239,237);
+
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  cursor: default;
+}
+
+/*Tablets*/
+@media screen and (max-width: 768px;){
+
+}
+
+/*Mobiles*/
+@media screen and (max-width: 480px;){
+
+}

@@ -1,0 +1,33 @@
+h1{
+
+}
+
+h2{
+
+}
+
+#whatsrupp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#whats{
+  width: 150px;
+}
+#whats:hover span {
+  display:none;
+
+}
+#whats:hover:before {content:"NICK";
+color: #222036 ;
+}
+
+
+nav{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 20%;
+}
