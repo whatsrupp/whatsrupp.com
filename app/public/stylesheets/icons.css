@@ -6,7 +6,7 @@ img{
   margin-bottom: 3px;
   box-sizing: border-box;
   opacity: 0.9;
-  height: 100px;
+  width: 100%;
 }
 
 h3{
@@ -18,9 +18,11 @@ h3{
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  height: 150px;
-  margin-left: 20px;
-  margin-right: 20px;
+  /*height: 150px;*/
+  width: 12%;
+  margin-left: 1%;
+  margin-right: 1%;
+
 }
 
 @keyframes float {
@@ -36,7 +38,9 @@ h3{
 
 /*Tablets*/
 @media screen and (min-width: 768px){
-
+  .image-holder {
+        height: 150px;
+  }
   a:hover img{
     transition: 0.2s;
     margin-bottom: 1px;
@@ -61,7 +65,18 @@ h3{
   }
 }
 
+@media screen and (max-width: 768px){
+
+  .image-holder{
+    width: 34%;
+  }
+}
+
+
 /*Mobiles*/
 @media screen and (max-width: 480px){
-
+  .image-holder{
+    width: 50%;
+    margin-top: 50px;
+  }
 }
