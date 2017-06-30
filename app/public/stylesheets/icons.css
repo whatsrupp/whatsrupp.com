@@ -1,6 +1,5 @@
 img{
   border-radius: 50%;
-  animation: float 20s ease infinite;
   background-color: #2c3566;
   padding:1px;
   margin-bottom: 3px;
@@ -63,6 +62,20 @@ h3{
     opacity: 1;
     transition: 0.3s;
   }
+}
+
+#icon1,#icon2,#icon6{
+  animation: float 14s ease infinite;
+
+}
+#icon3{
+  animation: float 10s ease infinite;
+
+}
+
+#icon4,#icon5{
+  animation: float 12s ease infinite;
+
 }
 
 @media screen and (max-width: 768px){

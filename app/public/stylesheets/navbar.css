@@ -8,6 +8,7 @@
 #whats{
   width: 150px;
   text-align: right;
+  margin-right: 8px;
 }
 #whats:hover span {
   display:none;
