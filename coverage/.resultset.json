@@ -1,0 +1,71 @@
+{
+  "RSpec": {
+    "coverage": {
+      "C:/Users/Nick/coding-projects/whatsrupp.com/app/app.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1
+      ],
+      "C:/Users/Nick/coding-projects/whatsrupp.com/app/server.rb": [
+        null,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "C:/Users/Nick/coding-projects/whatsrupp.com/app/controllers/index.rb": [
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "C:/Users/Nick/coding-projects/whatsrupp.com/app/controllers/design/index.rb": [
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "C:/Users/Nick/coding-projects/whatsrupp.com/app/models/model.rb": [
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "C:/Users/Nick/coding-projects/whatsrupp.com/spec/features/index_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1499276102
+  }
+}
