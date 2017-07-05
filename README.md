@@ -21,7 +21,7 @@ That's about it really!
 
 ### Online
 
-If it's live - it's [here](https://whatsrupp.herokuapp.com/)!
+If it's live - it's [here](https://whatsrupp.com/)!
 
 ### Offline
 
@@ -38,8 +38,8 @@ or you can set it up locally!
 #### 1) Clone this repository
 
 ```
- $ cd /wherever/you/want/to/clone/colour-think
- $ git clone https://github.com/whatsrupp/colour-think
+ $ cd /wherever/you/want/to/clone/whatsrupp.com
+ $ git clone https://github.com/whatsrupp/whatsrupp.com
 ```
 
 
@@ -76,6 +76,8 @@ http://localhost:9292/
 
 Had a lot of fun drawing these out and digitalising them!
 Next on the to do's is to turn them into animatable .svg files (That's scalable vector graphics for the uninitiated - ie. they can be expanded to any size without quality loss which is very handy!)
+
+Update 1: All the icons are now SVGs - which took a fair amount of time to be honest - animation on the way!
 
 
 ![Icons](/app/public/images/Icons.png)
