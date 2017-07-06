@@ -12,6 +12,7 @@ require_relative 'server'
 #Controller Links go here
 require_relative 'controllers/index'
 require_relative 'controllers/design/index'
+require_relative 'controllers/engineering/index'
 
 #Model Links go here
 require_relative 'models/model'
