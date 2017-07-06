@@ -1,11 +1,11 @@
-require 'simplecov'
-SimpleCov.start
+require 'coveralls'
+Coveralls.wear!
+
 
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 require 'pry'
-require 'timecop'
 
 
 

@@ -12,5 +12,5 @@ group :test do
   gem 'pry'
   gem 'capybara'
   gem 'selenium-webdriver'
-  gem 'simplecov'
+  gem 'coveralls', require: false
 end

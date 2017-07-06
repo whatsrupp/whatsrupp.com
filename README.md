@@ -1,7 +1,7 @@
 # Whatsrupp.com Webapp
 
 ![travis-build-logo](https://travis-ci.org/whatsrupp/whatsrupp.com.svg?branch=master)
-
+[![Coverage Status](https://coveralls.io/repos/github/whatsrupp/whatsrupp.com/badge.svg?branch=master)](https://coveralls.io/github/whatsrupp/whatsrupp.com?branch=master)
 ## About
 
 A half baked attempt to put all my things and thoughts into one place. It's all rather self-absorbed if I stop and think about it for too long. But, I figured it might show that I'm at least, in some shape or form, seriously enthusiastic about creating web-apps!
