@@ -2,10 +2,6 @@ nav{
   display: flex;
   justify-content:flex-end;
   align-items: center;
-  margin-left: 5%;
-  margin-right: 5%;
-
-  flex: 2;
 }
 
 #whatsrupp{
@@ -25,15 +21,14 @@ nav{
 
 }
 #whats:hover:before {content:"NICK";
-color: #222036 ;
+color: #70d1aa ;
 }
 
 /*Tablets*/
 @media screen and (max-width: 768px){
   nav{
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
+
     justify-content: center;
     align-items:flex-end;
     }
